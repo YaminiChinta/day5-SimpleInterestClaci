@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <title>Simple Interest Calculator</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Interest Calculator</h1>
+        
+        <div class="row">
+        <div class="col-sm-3">
+        <p style="align-items: flex-start;">Enter Principal Amount</p>
+        <input type="number" id="amount" class="amount form-control" placeholder="Principal Amount">
+        </div>
+
+        <div class="col-sm-4">
+            <p style="align-items: flex-start; margin-left:40px ;">Enter Time</p>
+            <div class="col-sm-6">
+                <input type="number" id="time" class="time form-control" placeholder="Year">
+            </div>
+            <div class="col-sm-6">
+                <input type="number" id="timem" class="time form-control" placeholder="Month">
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+        <p>Enter Rate</p>
+        <input type="number" id="rate" class="rate form-control" placeholder="Rate">
+        </div>
+        </div>
+
+        <br>
+        <button class="btn btn-success btn-lg" onclick="calculate()"><b>Calculate</b></button>
+        <button type="reset" class="btn btn-primary btn-lg" onclick="reset()"><b>Reset</b></button>
+        <h2 id="result"></h2>
+    </div>
+</body>
+</html>

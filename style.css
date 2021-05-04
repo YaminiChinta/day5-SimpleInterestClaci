@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-image: url(https://images6.alphacoders.com/455/thumbbig-455565.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgb(102, 201, 110); */
+
+}
+.container{
+    background-color: rgb(252, 232, 214);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 3px 3px rgb(185, 106, 106);
+}
+.container h1{
+    margin: 20px;
+    margin-bottom: 40px;
+    font-family: cursive;
+    font-size: 36px;
+    font-weight: bolder;
+}
+p{
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+input{
+    position: relative;
+    height: 40px;
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: rgb(137, 209, 153);
+    border: rgb(81, 212, 81);
+}
+
+button{
+    margin-left: 20px;
+    font-size: 30px;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgb(197, 187, 187);
+}
+
+#result{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    margin: 20px;
+
+}

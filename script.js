@@ -10,7 +10,7 @@ function calculate()
     var tt=Number(time)+Number(t);
     
     var interest=(amt*tt*rate)/100;
-    if(amt<0 || time<0 || rate<0 || timem>11 || timem<0){
+    if(amt<0 || time<0 || rate<0 || timem<0){
         window.alert("Please Enter Valid Number....");
         return false;
     }

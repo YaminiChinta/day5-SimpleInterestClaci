@@ -10,6 +10,7 @@ body{
     display: grid;
     place-items: center;
     background-image: url(https://images6.alphacoders.com/455/thumbbig-455565.png);
+    background-color: rgb(250, 157, 69);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: rgb(102, 201, 110); */

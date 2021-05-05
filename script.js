@@ -14,7 +14,7 @@ function calculate()
         window.alert("Please Enter Valid Number....");
         return false;
     }
-    document.getElementById("result").innerHTML="Interest for the following values:  "+interest;
+    document.getElementById("result").innerHTML="Interest for the following values:Rs.  "+interest;
     
     // amt=document.getElementById("amount").value="";
     // time=document.getElementById("time").value="";
